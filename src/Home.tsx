@@ -550,14 +550,14 @@ const Home = (props: HomeProps) => {
             <MainContainer>
                 <WalletContainer>
                     <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt=""
-                                                                                                          src="logo.png"/></a></Logo>
+                                                                                                          src="rsclogo.png"/></a></Logo>
                     <Menu>
-                        <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Menu 1</a>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer">Rad Seals Club</a>
                         </li>
-                        <li><a href="http://localhost:3000/" target="_blank"
+                        {/* <li><a href="http://localhost:3000/" target="_blank"
                                rel="noopener noreferrer">Menu 2</a></li>
                         <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 3</a></li>
+                               rel="noopener noreferrer">Menu 3</a></li> */}
                     </Menu>
                     <Wallet>
                         {wallet ?
@@ -570,11 +570,11 @@ const Home = (props: HomeProps) => {
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>My NFT</h2>
+                            <h2>Rad Seals Club</h2>
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
-                                src="cool-cats.gif"
+                                src="rsc.gif"
                                 alt="NFT To Mint"/></div>
                             <br/>
                             {wallet && isActive && whitelistEnabled && (whitelistTokenBalance > 0) && isBurnToken &&
@@ -658,7 +658,7 @@ const Home = (props: HomeProps) => {
                     </DesContainer>
                     <DesContainer>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 1</GoldTitle></LogoAligner>
+                            <LogoAligner><img src="rsclogo.png" alt=""></img><GoldTitle>Rad Seals Club</GoldTitle></LogoAligner>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt.</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -667,23 +667,21 @@ const Home = (props: HomeProps) => {
                                 incididunt.</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 2</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="rsclogo.png" alt=""></img><GoldTitle>Socials</GoldTitle></LogoAligner>
+                            <a href="https://discord.gg/7B7dqHgchP">Discord</a><br></br>
+                            
+                            <a href="https://twitter.com/RadSealsClub">Twitter</a><br></br>
+                            <a href="https://www.instagram.com/radsealsofficial">Instagram</a><br></br>
                         </Des>
-                        <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 3</GoldTitle></LogoAligner>
+                        {/* <Des elevation={2}>
+                            <LogoAligner><img src="rsclogo.png" alt=""></img><GoldTitle>TITLE 3</GoldTitle></LogoAligner>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt.</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt.</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt.</p>
-                        </Des>
+                        </Des> */}
                     </DesContainer>
                 </MintContainer>
             </MainContainer>
