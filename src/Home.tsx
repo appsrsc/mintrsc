@@ -659,12 +659,11 @@ const Home = (props: HomeProps) => {
                     <DesContainer>
                         <Des elevation={2}>
                             <LogoAligner><img src="rsclogo.png" alt=""></img><GoldTitle>Rad Seals Club</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            <p>The Rad Seals Club is a very exclusive group of exquisitely stylish seals on the Blockchain (some are even rumored to be superheroes in disguise) Are you ready to join and find out what its all about?</p>
+                            {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt.</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                                incididunt.</p> */}
                         </Des>
                         <Des elevation={2}>
                             <LogoAligner><img src="rsclogo.png" alt=""></img><GoldTitle>Socials</GoldTitle></LogoAligner>

@@ -1,9 +1,9 @@
 {
-  "short_name": "Mint Page",
-  "name": "Mint Page",
+  "short_name": "Rad Seals Club | Mint Page",
+  "name": "Rad Seals Club | Mint Page",
   "icons": [
     {
-      "src": "logo.png",
+      "src": "rsclogo.png",
       "type": "image/png",
       "sizes": "358x358"
     }
